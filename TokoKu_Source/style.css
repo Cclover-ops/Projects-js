@@ -1,0 +1,10 @@
+/* style.css - Custom CSS untuk TokoKu */
+
+/* Mengatasi scrollbar default pada filter kategori agar lebih rapi */
+.scrollbar-none::-webkit-scrollbar {
+    display: none;
+}
+.scrollbar-none {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
